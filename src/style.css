@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(205, 240, 234);
+  background-color: rgba(205, 240, 234, 0.747);
 }
 
 h1 {
@@ -36,8 +36,9 @@ li {
 .weather-app {
   padding: 20px;
   background-color: rgb(249, 249, 249);
-  border: 5px solid rgb(190, 174, 226);
+  border: none;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.096);
 }
 
 .overview {
