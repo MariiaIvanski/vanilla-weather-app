@@ -6,9 +6,8 @@ body {
 h1 {
   color: rgb(190, 174, 226);
   font-size: 32px;
-  line-height: 36px;
+  line-height: 38px;
   font-weight: 800;
-  line-height: 28px;
   -webkit-text-stroke: 1px rgba(97, 91, 91, 0.336);
   margin-bottom: 0;
 }
@@ -25,7 +24,7 @@ li {
   font-style: italic;
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 20px;
 }
 
 li:first-letter {
