@@ -12,8 +12,7 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300&display=swap"
       rel="stylesheet"
@@ -28,6 +27,24 @@
         <div class="weather-app">
           <div class="overview">
             <h1>What's the weather like?</h1>
+            <form id="search-form" class="mb-3">
+              <div class="row">
+                <div class="col-9">
+                  <input
+                    type="search"
+                    placeholder="Enter a city name.."
+                    class="form-control"
+                  />
+                </div>
+                <div class="col-3">
+                  <input
+                    type="submit"
+                    value="Search"
+                    class="btn btn-primary w-100"
+                  />
+                </div>
+              </div>
+            </form>
             <h1 id="city"></h1>
             <ul>
               <li>Last updated: <span id="date"></span></li>
