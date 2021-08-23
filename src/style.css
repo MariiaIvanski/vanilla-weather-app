@@ -1,6 +1,9 @@
 body {
   background-color: rgb(236, 252, 255);
   font-family: "Josefin Sans", sans-serif;
+  background-image: url(umbrellas.jpg);
+  background-size: cover;
+  background-blend-mode: hue;
 }
 
 h1 {
