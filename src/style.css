@@ -101,3 +101,8 @@ li:first-letter {
 .form-control {
   background-color: rgba(237, 238, 247, 0.356);
 }
+
+.weather-forecast {
+  margin: 0 auto;
+  text-align: center;
+}
