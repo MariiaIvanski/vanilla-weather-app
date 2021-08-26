@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: rgb(184, 181, 255);
+  color: rgb(120, 104, 230);
   font-size: 32px;
   line-height: 38px;
   font-weight: 800;
@@ -41,10 +41,10 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  background-color: white;
+  background-color: rgb(228, 251, 255);
   border: none;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.096);
+  box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.096);
 }
 
 .overview {
@@ -110,4 +110,16 @@ li:first-letter {
 .weather-forecast-date {
   font-size: 16px;
   color: rgb(184, 181, 255);
+}
+.weather-forecast-description {
+  font-size: 16px;
+  color: rgb(184, 181, 255);
+}
+.weather-forecast-temperature {
+  font-size: 14px;
+  color: rgb(120, 104, 230);
+}
+
+.weather-forecast-min {
+  opacity: 0.6;
 }
