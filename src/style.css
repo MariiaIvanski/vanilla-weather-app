@@ -106,3 +106,8 @@ li:first-letter {
   margin: 0 auto;
   text-align: center;
 }
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(184, 181, 255);
+}
