@@ -80,21 +80,34 @@ li:first-letter {
 }
 
 .btn-primary {
+  margin: 0 16px;
   color: #fff;
   background-color: rgb(120, 104, 230);
   border-color: rgb(120, 104, 230);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   color: #fff;
-  background-color: rgb(111, 94, 219);
-  border-color: rgb(120, 104, 230);
+  background-color: rgba(121, 104, 230, 0.8);
+  border-color: rgba(121, 104, 230, 0.8);
+  box-shadow: 0 0 0 4px rgba(121, 104, 230, 0.5);
 }
 
-.btn-primary:focus {
+.btn-success {
   color: #fff;
-  background-color: rgb(120, 104, 230);
-  border-color: rgb(120, 104, 230);
+  background-color: rgb(100, 201, 207);
+  border-color: rgb(100, 201, 207);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+  color: #fff;
+  background-color: rgb(100, 201, 207);
+  border-color: rgb(100, 201, 207);
+  box-shadow: 0 0 0 4px rgba(100, 202, 207, 0.473);
 }
 
 .form-control {
