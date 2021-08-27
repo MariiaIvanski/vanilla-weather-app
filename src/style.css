@@ -105,8 +105,8 @@ li:first-letter {
 .btn-success:focus,
 .btn-success:active {
   color: #fff;
-  background-color: rgb(100, 201, 207);
-  border-color: rgb(100, 201, 207);
+  background-color: rgba(100, 202, 207, 0.8);
+  border-color: rgba(100, 202, 207, 0.8);
   box-shadow: 0 0 0 4px rgba(100, 202, 207, 0.473);
 }
 
