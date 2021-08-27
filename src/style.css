@@ -3,7 +3,6 @@ body {
   font-family: "Josefin Sans", sans-serif;
   background-image: url(umbrellas.jpg);
   background-size: cover;
-  background-blend-mode: hue;
 }
 
 h1 {
@@ -41,7 +40,7 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  background-color: rgb(228, 251, 255);
+  background-color: rgba(228, 251, 255, 0.959);
   border: none;
   border-radius: 10px;
   box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.096);
