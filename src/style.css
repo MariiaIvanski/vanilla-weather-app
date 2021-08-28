@@ -116,6 +116,10 @@ li:first-letter {
   background-color: rgba(237, 238, 247, 0.356);
 }
 
+hr {
+  color: rgb(184, 181, 255);
+}
+
 .weather-forecast {
   margin: 0 auto;
   text-align: center;
@@ -137,4 +141,9 @@ li:first-letter {
 
 .weather-forecast-min {
   opacity: 0.6;
+}
+
+img {
+  -webkit-filter: drop-shadow(3px 3px 3px rgba(129, 129, 129, 0.5));
+  filter: drop-shadow(3px 3px 3px rgba(129, 129, 129, 0.5));
 }
