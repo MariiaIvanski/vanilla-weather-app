@@ -112,7 +112,11 @@ function search(city) {
 function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
-  search(cityInputElement.value);
+  if (!cityInputElement.value.match(/^[A-Z a-z]+$/)) {
+    alert("Sorry, English letters only 🥺");
+  } else {
+    search(cityInputElement.value.trim());
+  }
 }
 
 let form = document.querySelector("#search-form");
