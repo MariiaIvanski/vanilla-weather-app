@@ -80,15 +80,14 @@ li:first-letter {
 }
 
 .btn-primary {
-  margin: 0 16px;
+  margin: 0 6px;
   color: #fff;
   background-color: rgb(120, 104, 230);
   border-color: rgb(120, 104, 230);
 }
 
 .btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
+.btn-primary:focus {
   color: #fff;
   background-color: rgba(121, 104, 230, 0.8);
   border-color: rgba(121, 104, 230, 0.8);
@@ -96,24 +95,56 @@ li:first-letter {
   outline: 0;
 }
 
+.btn-primary:active {
+  color: #fff;
+  background-color: rgb(121, 104, 230);
+  border-color: rgb(121, 104, 230);
+  box-shadow: 0 0 0 4px rgba(121, 104, 230, 0.5);
+  outline: 0;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 4px rgb(121, 104, 230, 0.5);
+}
+
 .btn-success {
+  margin: 0 auto;
   color: #fff;
   background-color: rgb(100, 201, 207);
   border-color: rgb(100, 201, 207);
 }
 
 .btn-success:hover,
-.btn-success:focus,
-.btn-success:active {
+.btn-success:focus {
   color: #fff;
   background-color: rgba(100, 202, 207, 0.8);
   border-color: rgba(100, 202, 207, 0.8);
-  box-shadow: 0 0 0 4px rgba(100, 202, 207, 0.473);
+  box-shadow: 0 0 0 4px rgba(100, 202, 207, 0.4);
   outline: 0;
 }
 
+.btn-success:active {
+  color: #fff;
+  background-color: rgba(100, 202, 207);
+  border-color: rgba(100, 202, 207);
+  box-shadow: 0 0 0 4px rgba(100, 202, 207, 0.6);
+  outline: 0;
+}
+
+.btn-check:active + .btn-success:focus,
+.btn-check:checked + .btn-success:focus,
+.btn-success.active:focus,
+.btn-success:active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 4px rgba(100, 202, 207, 0.5);
+}
+
 .form-control {
-  background-color: rgba(237, 238, 247, 0.356);
+  background-color: rgba(237, 238, 247, 0.35);
 }
 
 hr {
