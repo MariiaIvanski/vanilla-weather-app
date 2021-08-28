@@ -50,7 +50,9 @@ function displayForecast(response) {
                   alt="sun"
                   width="42"
                 />
-                <div class="weather-forecast-description">Clear sky</div>
+                <div class="weather-forecast-description">${
+                  forecastDay.weather[0].main
+                }</div>
                 <div class="weather-forecast-temperature">
                   <span class="weather-forecast-max"> ${Math.round(
                     forecastDay.temp.max

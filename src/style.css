@@ -123,10 +123,11 @@ li:first-letter {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: rgb(184, 181, 255);
+  color: rgb(120, 104, 230);
 }
 .weather-forecast-description {
   font-size: 16px;
+  font-style: italic;
   color: rgb(184, 181, 255);
 }
 .weather-forecast-temperature {
