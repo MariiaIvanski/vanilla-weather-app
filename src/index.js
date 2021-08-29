@@ -85,6 +85,8 @@ function displayTemperature(response) {
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
+  let placeholder = document.querySelector(`#city-input`);
+  placeholder.value = ``;
 
   celsiusTemperature = response.data.main.temp;
 
@@ -114,6 +116,8 @@ function handleSubmit(event) {
   let cityInputElement = document.querySelector("#city-input");
   if (!cityInputElement.value.match(/^[A-Z a-z_-]+$/)) {
     alert("English letters only 😉");
+    let placeholder = document.querySelector(`#city-input`);
+    placeholder.value = ``;
   } else {
     search(cityInputElement.value.trim());
   }
