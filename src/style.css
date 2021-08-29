@@ -33,6 +33,10 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+hr {
+  color: rgb(184, 181, 255);
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -146,8 +150,9 @@ li:first-letter {
   background-color: rgba(237, 238, 247, 0.35);
 }
 
-hr {
-  color: rgb(184, 181, 255);
+.current-degrees {
+  display: flex;
+  align-items: flex-start;
 }
 
 .weather-forecast {
